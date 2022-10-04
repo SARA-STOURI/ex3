@@ -1,0 +1,9 @@
+    P=input("entrer la pression")
+    A=input("entrer la surface")
+try:
+    P=float(P)
+    S=float(S)
+    F=P*S
+    print("la force est:",F,"N")
+except:
+    print("la valeur de la force que vous avez donné est pas correct")
